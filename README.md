@@ -50,7 +50,7 @@ Simple python scipt that can be used to review open cases as and open new cases.
 
 #### Example
 ```
-python aws-case-cli.py
+$ python aws-case-cli.py
 AWS Support API CLI
 This script will allow you to list and open cases.
 
