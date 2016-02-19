@@ -19,7 +19,7 @@ Simple python scipt that can be used to review open cases as and open new cases.
 	- Output will save to file called 'describe-services.out'
 	- For example If I want to open a case for Virtual Private Cloud (VPC) API's I'd look at 
 
-   '
+   ``` 
    {
     "categories": [
     {
@@ -42,14 +42,14 @@ Simple python scipt that can be used to review open cases as and open new cases.
         "code": "amazon-virtual-private-cloud",
         "name": "Virtual Private Cloud (VPC)"
     },
-    '
+	``` 
 
  	ServiceCode: amazon-virtual-private-cloud
  	CategoryCode: apis
 4. Now that you have your Severity, CategoryCode, and ServiceCode you're ready to open the case, select option 2 and fill out all information. 
 
 #### Example
-'
+```
 python aws-case-cli.py
 AWS Support API CLI
 This script will allow you to list and open cases.
@@ -70,7 +70,7 @@ Issue Type (customer-service / technical): technical
 CC Email Address: user@user.com
 ('Test Case', 'amazon-virtual-private-cloud', 'low', 'apis', 'This is a test case and can be closed.', 'technical')
 {u'caseId': u'case-XXXXXXXXXXXX-xxxx-XXXX-XXXXXXXXXXXXXXXX', 'ResponseMetadata': {'HTTPStatusCode': 200, 'RequestId': 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'}}
-'
+```
 
 ## To do
 1. Modify output from "View Open Cases" to only show 
